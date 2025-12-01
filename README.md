@@ -65,4 +65,42 @@ This makes CodeSight AI a real **developer co-pilot for entire projects**, not j
 
 ## 📂 Project Structure
 
+codesight-ai/
+│── app.py
+│── agents/
+│ ├── ai_core.py
+│ ├── code_suggestions.py
+│ ├── code_generator.py
+│ ├── repo_reader.py
+│ ├── impact_analyzer.py
+│ ├── github_importer.py
+│ ├── auto_fixer.py
+│── demo_project/ # sample codebase for testing
+│── .gitignore
+│── requirements.txt
+│── README.md
+---
+
+## 🚀 How to Run Locally
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/manasapatil0608/codesight-ai.git
+cd codesight-ai
+
+2️⃣ Create a virtual environment
+python -m venv .venv
+
+3️⃣ Activate it
+.venv\Scripts\activate
+
+4️⃣ Install dependencies
+pip install -r requirements.txt
+
+5️⃣ Set your Gemini API key
+setx GOOGLE_API_KEY "your-key-here"
+
+6️⃣ Run the app
+streamlit run app.py
+
 
