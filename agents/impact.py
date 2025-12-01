@@ -1,6 +1,0 @@
-def categorize_impact(score):
-    if score >= 0.7:
-        return "High"
-    elif score >= 0.4:
-        return "Medium"
-    return "Low"
