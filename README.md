@@ -1,5 +1,8 @@
 # 🚀 CodeSight AI — Intelligent Code Understanding & Auto-Refactor Assistant
 
+Video Demo: https://drive.google.com/drive/folders/1plooVAQ1bv1UU3ARa8eV3wdOEKqQv53o?usp=sharing
+
+
 CodeSight AI is an end-to-end **GenAI-powered developer assistant** that helps engineers understand, analyze, and automatically update large codebases.  
 It combines **multi-agent architecture**, **impact analysis**, **automatic code fixing**, **GitHub import**, and a beautiful **Streamlit UI**.
 
